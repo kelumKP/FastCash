@@ -1,0 +1,17 @@
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.csproj.AssemblyReference.cache
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.AssemblyInfoInputs.cache
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.AssemblyInfo.cs
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Infrastructure.deps.json
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Infrastructure.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Infrastructure.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Application.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Core.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Application.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Core.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.csproj.CopyComplete
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/refint/LoanApp.Infrastructure.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/LoanApp.Infrastructure.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/obj/Debug/net7.0/ref/LoanApp.Infrastructure.dll

@@ -1,0 +1,39 @@
+﻿<Properties>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/LoanApplication.cs">
+    <Files>
+      <File FileName="Services/EmailService.cs" />
+      <File FileName="Models/Customer.cs" />
+      <File FileName="Models/LoanApplication.cs" Line="11" Column="17" />
+      <File FileName="Models/LoanStatusHistory.cs" />
+      <File FileName="Interfaces/IEventBus.cs" />
+      <File FileName="Interfaces/ICustomerService.cs" />
+      <File FileName="Interfaces/IEmailService.cs" />
+      <File FileName="Events/LoanApplicationSubmittedEvent.cs" />
+      <File FileName="Events/LoanApprovedEvent.cs" />
+      <File FileName="Events/LoanRejectedEvent.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LoanApp.Core" expanded="True" selected="True">
+            <Node name="LoanApp.Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Events" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

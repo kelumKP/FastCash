@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="1.0.0" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
+</ItemGroup>
+<ItemGroup>
+  <Reference Include="LoanApp.Application">
+    <HintPath>..\LoanApp.Application\bin\Debug\net7.0\LoanApp.Application.dll</HintPath>
+  </Reference>
+  <Reference Include="LoanApp.Core">
+    <HintPath>..\LoanApp.Core\bin\Debug\net7.0\LoanApp.Core.dll</HintPath>
+  </Reference>
+</ItemGroup>
+<ItemGroup>
+  <None Remove="Interfaces\" />
+</ItemGroup>
+<ItemGroup>
+  <Folder Include="Interfaces\" />
+</ItemGroup>
+</Project>

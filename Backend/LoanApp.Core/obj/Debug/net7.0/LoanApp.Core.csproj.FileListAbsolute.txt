@@ -1,0 +1,15 @@
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.csproj.AssemblyReference.cache
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.AssemblyInfoInputs.cache
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.AssemblyInfo.cs
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.csproj.CoreCompileInputs.cache
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Core.deps.json
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Core.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Core.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Application.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Application.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.csproj.CopyComplete
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/refint/LoanApp.Core.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/LoanApp.Core.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Core/obj/Debug/net7.0/ref/LoanApp.Core.dll

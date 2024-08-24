@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using LoanApp.Infrastructure.Data;
 using LoanApp.Infrastructure.Interfaces;
 using LoanApp.Infrastructure.Services;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,17 +11,19 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Specify the absolute path for the SQLite database
+var dbDirectory = Path.Combine("..", "LoanApp.Infrastructure", "Data");
+var dbPath = Path.Combine(dbDirectory, "loanapp.db");
+
 // Add CORS policy
 builder.Services.AddCors(policyBuilder =>
     policyBuilder.AddDefaultPolicy(policy =>
         policy.WithOrigins("*").AllowAnyHeader().AllowAnyMethod())
 );
 
-
-
 // Add DbContext and other services
 builder.Services.AddDbContext<LoansUnlimitedContext>(options =>
-    options.UseSqlite("Data Source=loanapp.db"));
+    options.UseSqlite($"Data Source={dbPath}"));
 
 builder.Services.AddScoped<ILoanApplicationService, LoanApplicationService>();
 
@@ -42,11 +45,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-
 app.UseHttpsRedirection();
-
-
 
 app.UseAuthorization();
 

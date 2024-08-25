@@ -1,7 +1,7 @@
 ﻿<Properties>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/LoanApplicationService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/InMemoryEventBus.cs">
     <Files>
       <File FileName="Data/Repositories/CustomerRepository.cs" />
       <File FileName="Data/Repositories/LoanApplicationRepository.cs" />
@@ -9,23 +9,18 @@
       <File FileName="Jobs/LoanPaymentFileGeneratorService.cs" />
       <File FileName="Services/CreditCheckServices.cs" />
       <File FileName="Services/EmailClientServices.cs" />
-      <File FileName="Services/LoanApplicationService.cs" Line="23" Column="47" />
+      <File FileName="Services/LoanApplicationService.cs" />
       <File FileName="Interfaces/ILoanApplicationService.cs" />
+      <File FileName="Services/InMemoryEventBus.cs" Line="19" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LoanApp.Infrastructure" selected="True">
             <Node name="LoanApp.Infrastructure" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="AssemblyDependencies" expanded="True" />
-                <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Data" expanded="True">
                 <Node name="Repositories" expanded="True" />
               </Node>
-              <Node name="Interfaces" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>

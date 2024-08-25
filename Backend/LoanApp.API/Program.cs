@@ -3,6 +3,9 @@ using LoanApp.Infrastructure.Data;
 using LoanApp.Infrastructure.Interfaces;
 using LoanApp.Infrastructure.Services;
 using System.IO;
+using LoanApp.Core.Interfaces;
+using LoanApp.Infrastructure.Data.Repositories;
+using LoanApp.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Register the event bus implementation
+builder.Services.AddSingleton<IEventBus, InMemoryEventBus>();
+
+// Register other services and repositories
+builder.Services.AddScoped<ILoanApplicationRepository, LoanApplicationRepository>();
+builder.Services.AddScoped<LoanApplicationManager>();
+
 
 // Specify the absolute path for the SQLite database
 var dbDirectory = Path.Combine("..", "LoanApp.Infrastructure", "Data");

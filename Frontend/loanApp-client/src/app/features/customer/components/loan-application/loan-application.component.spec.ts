@@ -43,7 +43,7 @@ describe('LoanApplicationComponent', () => {
     component.onSubmit();
 
     // Simulate the backend response
-    const req = httpMock.expectOne('http://localhost:5212/api/loan');
+    const req = httpMock.expectOne('http://localhost:5212/api/Loan/submit');
     req.flush({});
 
     // Assert
@@ -59,7 +59,7 @@ describe('LoanApplicationComponent', () => {
     component.onSubmit();
 
     // Simulate the backend error response
-    const req = httpMock.expectOne('http://localhost:5212/api/loan');
+    const req = httpMock.expectOne('http://localhost:5212/api/Loan/submit');
     req.flush({}, { status: 500, statusText: 'Server Error' });
 
     // Assert
@@ -75,7 +75,7 @@ describe('LoanApplicationComponent', () => {
     component.onSubmit();
 
     // Simulate the backend response
-    const req = httpMock.expectOne('http://localhost:5212/api/loan');
+    const req = httpMock.expectOne('http://localhost:5212/api/Loan/submit');
     req.flush({});
 
     // Assert

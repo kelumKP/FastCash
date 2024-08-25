@@ -18,7 +18,7 @@ export class LoanApplicationComponent {
   constructor(private http: HttpClient) {} ///
 
   onSubmit() {
-    this.http.post('http://localhost:5212/api/loan', this.loanApplication)
+    this.http.post('http://localhost:5212/api/Loan/submit', this.loanApplication, { responseType: 'json' })
       .subscribe({
         next: (response) => {
           this.successMessage = 'Loan Request Submitted Successfully!';
@@ -27,7 +27,13 @@ export class LoanApplicationComponent {
         },
         error: (error) => {
           this.successMessage = '';
-          this.errorMessage = 'There was an error submitting the loan request. Please try again.';
+          if (error.status === 400) {
+            this.errorMessage = 'There was an error submitting the loan request. Please check your input and try again.';
+          } else if (error.status === 500) {
+            this.errorMessage = 'There was an error submitting the loan request. Please try again.';
+          } else {
+            this.errorMessage = 'There was an error submitting the loan request. Please try again.';
+          }
         }
       });
   }

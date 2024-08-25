@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using LoanApp.Application.Dtos;
 using LoanApp.Infrastructure.Interfaces;
 using System.Web.Http.Cors;
+using LoanApp.Application.Services;
 
 namespace LoanApp.API.Controllers
 {
@@ -10,18 +11,21 @@ namespace LoanApp.API.Controllers
     [Route("api/[controller]")]
     public class LoanController : ControllerBase
     {
-        private readonly ILoanApplicationService _loanApplicationService;
+        private readonly LoanApplicationManager _loanApplicationManager;
 
-        public LoanController(ILoanApplicationService loanApplicationService)
+        public LoanController(LoanApplicationManager loanApplicationManager)
         {
-            _loanApplicationService = loanApplicationService;
+            _loanApplicationManager = loanApplicationManager;
         }
 
-        [HttpPost]
-        public IActionResult SubmitLoanApplication([FromBody] LoanApplicationDto loanApplication)
+        [HttpPost("submit")]
+        public async Task<IActionResult> SubmitLoanApplication([FromBody] LoanApplicationDto loanApplicationDto)
         {
-            _loanApplicationService.SubmitLoanApplication(loanApplication);
-            return Ok();
+            var result = await _loanApplicationManager.SubmitLoanApplicationAsync(loanApplicationDto);
+            if (result)
+                return Ok(new { message = "Loan application submitted successfully." });
+
+            return BadRequest(new { message = "Failed to submit loan application." });
         }
     }
 }

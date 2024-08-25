@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="LoanApp.Core">
+      <HintPath>..\LoanApp.Core\bin\Debug\net7.0\LoanApp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LoanApp.Application">
+      <HintPath>bin\Debug\net7.0\LoanApp.Application.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

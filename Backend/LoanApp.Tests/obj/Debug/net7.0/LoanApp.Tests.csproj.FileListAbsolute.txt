@@ -96,3 +96,14 @@
 /Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.pdb
 /Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.genruntimeconfig.cache
 /Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/obj/Debug/net7.0/ref/LoanApp.Tests.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/Castle.Core.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/Moq.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Application.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Core.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Infrastructure.dll
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Core.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Infrastructure.pdb
+/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Application.pdb

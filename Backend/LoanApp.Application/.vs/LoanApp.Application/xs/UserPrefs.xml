@@ -1,28 +1,20 @@
 ﻿<Properties>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dtos/LoanApplicationDto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/LoanApplicationManager.cs">
     <Files>
-      <File FileName="Services/LoanApplicationManager.cs" />
+      <File FileName="Services/LoanApplicationManager.cs" Line="42" Column="14" />
       <File FileName="Mappings/MappingProfile.cs" />
       <File FileName="Interfaces/ICustomerManager.cs" />
       <File FileName="Interfaces/ILoanApplicationManager.cs" />
       <File FileName="Dtos/CustomerDto.cs" />
-      <File FileName="Dtos/LoanApplicationDto.cs" Line="1" Column="1" />
+      <File FileName="Dtos/LoanApplicationDto.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LoanApp.Application" expanded="True">
-            <Node name="LoanApp.Application" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-              </Node>
-              <Node name="Dtos" expanded="True">
-                <Node name="LoanApplicationDto.cs" selected="True" />
-              </Node>
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Mappings" expanded="True" />
+          <Node name="LoanApp.Application" selected="True">
+            <Node name="LoanApp.Application">
               <Node name="Services" expanded="True" />
             </Node>
           </Node>

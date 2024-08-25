@@ -2,27 +2,28 @@
   <MonoDevelop.Ide.ItemProperties.LoanApp.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../LoanApp.Application/Services/LoanApplicationManager.cs">
     <Files>
-      <File FileName="Program.cs" Line="18" Column="1" />
+      <File FileName="Program.cs" />
+      <File FileName="Controllers/LoanController.cs" Line="16" Column="1" />
+      <File FileName="../LoanApp.Application/Services/LoanApplicationManager.cs" Line="37" Column="1" />
+      <File FileName="../LoanApp.Infrastructure/Data/Repositories/LoanApplicationRepository.cs" />
+      <File FileName="../LoanApp.Core/Events/LoanApplicationSubmittedEvent.cs" />
+      <File FileName="../LoanApp.Infrastructure/Services/InMemoryEventBus.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="LoanApp.API" expanded="True">
-            <Node name="LoanApp.API" expanded="True" selected="True" />
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.API/Controllers/LoanController.cs" relfile="Controllers/LoanController.cs" line="12" column="1" />
-      <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.API/Controllers/LoanController.cs" relfile="Controllers/LoanController.cs" line="22" column="1" />
       <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/Services/LoanApplicationService.cs" line="26" column="1" />
       <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/Services/LoanApplicationService.cs" line="27" column="1" />
       <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Infrastructure/Services/LoanApplicationService.cs" line="24" column="1" />
+      <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.API/Controllers/LoanController.cs" relfile="Controllers/LoanController.cs" line="13" column="1" />
+      <Breakpoint file="/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.Application/Services/LoanApplicationManager.cs" line="37" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

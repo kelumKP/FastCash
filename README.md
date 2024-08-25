@@ -1,62 +1,44 @@
 # Loan Application System
 
-## Overview
+This repository contains a Loan Application System, which is developed using a modern technology stack including .NET for the backend and Angular for the frontend. The system provides a complete solution for submitting and managing loan applications.
 
-This project is a full-stack loan application system built using modern technologies. The system consists of a backend API, a frontend single-page application (SPA), and server-side rendering (SSR) for enhanced performance and SEO.
+## Backend Technologies
 
-## Technologies Used
+- **.NET 7.0**: The core framework used for building the backend API.
+- **Entity Framework Core**: An ORM (Object-Relational Mapper) for database operations with SQLite.
+- **SQLite**: A lightweight, file-based relational database used for storing data (`loanapp.db`).
+- **ASP.NET Core**: A framework for building web APIs.
+- **Swagger**: Integrated for API documentation and testing.
 
-### Backend
+## Backend Libraries
 
-- **C# .NET**:
-  - **ASP.NET Core**: Utilized for building a RESTful API to handle loan application requests and manage data.
-  - **Entity Framework Core**: Used for database operations with SQLite, allowing for seamless interaction between the application and the database.
-  - **Dependency Injection**: Managed by ASP.NET Core to promote modularity and testability.
+- **Microsoft.EntityFrameworkCore**: Core library for Entity Framework, enabling database operations.
+- **Microsoft.EntityFrameworkCore.Sqlite**: SQLite-specific provider for Entity Framework Core.
+- **Microsoft.AspNetCore.Mvc**: Provides the structure for building HTTP APIs.
+- **System.IO**: Used for file and directory operations, such as setting the database path.
 
-- **Database**:
-  - **SQLite**: A lightweight relational database used to store loan application data.
+## Backend Testing Frameworks
 
-- **Middleware and Configuration**:
-  - **CORS (Cross-Origin Resource Sharing)**: Configured to allow requests from specific origins, ensuring secure communication between frontend and backend.
-  - **Swagger**: Integrated for API documentation and testing, making it easier to understand and interact with the API.
+- **xUnit**: A unit testing framework used in the `LoanApp.Tests` project to test the application logic.
+- **Moq**: A popular mocking library that can be used in conjunction with xUnit for creating mock objects in tests.
 
-### Frontend
+## Frontend Technologies
 
-- **Angular**:
-  - **Angular Core**: Provides the foundation for building a responsive and dynamic single-page application (SPA).
-  - **Angular Forms**: Facilitates form validation and management of user input.
-  - **Angular Router**: Manages routing and navigation within the application.
-  - **Angular SSR (Server-Side Rendering)**: Configured with Angular Universal to improve performance and SEO by pre-rendering pages on the server.
+- **Angular**: A TypeScript-based frontend framework used for building the client-side application.
+- **Angular SSR (Server-Side Rendering)**: Used for rendering the application on the server for improved performance and SEO.
+- **TypeScript**: A superset of JavaScript, adding static types to the language.
+- **RxJS**: A library for reactive programming with asynchronous data streams.
 
-- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+## Frontend Libraries
 
-- **RxJS**: Employed for managing asynchronous data streams and events, crucial for handling user interactions and real-time updates.
+- **Angular Forms**: For building and managing forms.
+- **Angular Router**: For navigating between different views in the Angular application.
+- **Zone.js**: A library for managing async operations in Angular.
 
-- **Express.js**: Used in conjunction with Angular Universal to handle server-side rendering (SSR) and serve the Angular application.
+## Frontend Testing Frameworks
 
-- **Zone.js**: Manages asynchronous operations in Angular, ensuring that the application’s change detection works seamlessly.
-
-### Testing
-
-- **Karma**: A test runner that allows you to run tests in a browser environment, ensuring that the application works correctly across different platforms.
-  
-- **Jasmine**: A behavior-driven development (BDD) framework used for writing unit and integration tests for the Angular application.
-
-- **Karma Chrome Launcher**: A plugin that runs tests in the Chrome browser, facilitating a real-world testing environment.
-
-- **Karma Coverage**: Generates code coverage reports to help identify untested parts of the codebase.
-
-### Build Tools
-
-- **Angular CLI**: A powerful command-line interface tool that simplifies the creation, management, and testing of Angular applications.
-
-- **Webpack**: A module bundler used by Angular CLI to efficiently bundle JavaScript, CSS, and other assets for production.
-
-### Miscellaneous
-
-- **Tslib**: A runtime library for TypeScript, providing essential helper functions to support TypeScript features.
-
-- **Node.js**: The runtime environment used to execute server-side JavaScript, particularly for the SSR with Express.
+- **Karma**: A test runner that works with Jasmine to run tests in various browsers.
+- **Jasmine**: A behavior-driven development framework for testing JavaScript code.
 
 ## Project Structure
 

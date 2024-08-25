@@ -60,7 +60,58 @@ This project is a full-stack loan application system built using modern technolo
 
 ## Project Structure
 
+
 ```plaintext
+### Backend Project Structure
+
+Backend/
+├── LoanApp.API/
+│   ├── Controllers/
+│   │   └── LoanController.cs
+│   ├── Program.cs
+│   ├── appsettings.json
+│   └── launchSettings.json
+│
+├── LoanApp.Application/
+│   ├── Dtos/
+│   │   ├── CustomerDto.cs
+│   │   └── LoanApplicationDto.cs
+│   ├── Services/
+│       └── LoanApplicationManager.cs
+│
+├── LoanApp.Core/
+│   ├── Events/
+│   │   ├── LoanApplicationSubmittedEvent.cs
+│   │   ├── LoanApprovedEvent.cs
+│   │   └── LoanRejectedEvent.cs
+│   ├── Interfaces/
+│   │   ├── ICustomerService.cs
+│   │   ├── IEmailService.cs
+│   │   └── IEventBus.cs
+│   ├── Models/
+│   │   ├── Customer.cs
+│   │   ├── LoanApplication.cs
+│   │   └── LoanStatusHistory.cs
+│   └── Services/
+│       └── EmailService.cs
+│
+├── LoanApp.Infrastructure/
+│   ├── Data/
+│   │   ├── Configurations/
+│   │   ├── Repositories/
+│   │   │   ├── CustomerRepository.cs
+│   │   │   └── LoanApplicationRepository.cs
+│   │   ├── loanapp.db
+│   │   └── LoansUnlimitedContext.cs
+│   └── Services/
+│       ├── CreditCheckServices.cs
+│       ├── EmailClientServices.cs
+│       └── SftpClientServices.cs
+│
+├── LoanApp.Tests/
+│   ├── LoanApplicationServiceTests.cs
+│   └── other test files...
+
 loans-unlimited-client/
 │
 ├── src/
@@ -144,6 +195,8 @@ loans-unlimited-client/
 ├── package.json
 ├── tsconfig.json
 └── tslint.json
+
+
 ````
 
 <img width="2234" alt="Screenshot 2024-08-25 at 12 18 25 PM" src="https://github.com/user-attachments/assets/a7b638de-8a9c-4755-855f-b371818a7e0a">

@@ -15,7 +15,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LoanApp.Infrastructure" expanded="True" selected="True">
+          <Node name="LoanApp.Infrastructure" selected="True">
             <Node name="LoanApp.Infrastructure" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="AssemblyDependencies" expanded="True" />

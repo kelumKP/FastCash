@@ -6,61 +6,26 @@ This project is a full-stack loan application system built using modern technolo
 
 ## Technologies Used
 
-### Backend
+# Backend
 
-- **C# .NET**:
-  - **ASP.NET Core**: Utilized for building a RESTful API to handle loan application requests and manage data.
-  - **Entity Framework Core**: Used for database operations with SQLite, allowing for seamless interaction between the application and the database.
-  - **Dependency Injection**: Managed by ASP.NET Core to promote modularity and testability.
+### **C# .NET:**
 
-- **Database**:
-  - **SQLite**: A lightweight relational database used to store loan application data.
+- **ASP.NET Core:** Utilized for building a RESTful API to manage loan applications, including submitting and retrieving data.
+- **Entity Framework Core:** An ORM framework that interacts with SQLite, simplifying database operations and ensuring efficient data management.
+- **Dependency Injection:** Core to ASP.NET Core, enabling a modular and testable architecture by managing service lifetimes and dependencies.
 
-- **Middleware and Configuration**:
-  - **CORS (Cross-Origin Resource Sharing)**: Configured to allow requests from specific origins, ensuring secure communication between frontend and backend.
-  - **Swagger**: Integrated for API documentation and testing, making it easier to understand and interact with the API.
+### **Database:**
 
-### Frontend
+- **SQLite:** A lightweight, serverless, and self-contained database used to store loan application data and ensure quick access and minimal setup.
 
-- **Angular**:
-  - **Angular Core**: Provides the foundation for building a responsive and dynamic single-page application (SPA).
-  - **Angular Forms**: Facilitates form validation and management of user input.
-  - **Angular Router**: Manages routing and navigation within the application.
-  - **Angular SSR (Server-Side Rendering)**: Configured with Angular Universal to improve performance and SEO by pre-rendering pages on the server.
+### **Middleware and Configuration:**
 
-- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+- **CORS (Cross-Origin Resource Sharing):** Configured to allow secure and specific communication between the frontend and backend, supporting various request origins.
+- **Swagger:** Integrated for easy API documentation and interactive testing, enhancing the development and collaboration process.
 
-- **RxJS**: Employed for managing asynchronous data streams and events, crucial for handling user interactions and real-time updates.
+# Project Structure
 
-- **Express.js**: Used in conjunction with Angular Universal to handle server-side rendering (SSR) and serve the Angular application.
-
-- **Zone.js**: Manages asynchronous operations in Angular, ensuring that the application’s change detection works seamlessly.
-
-### Testing
-
-- **Karma**: A test runner that allows you to run tests in a browser environment, ensuring that the application works correctly across different platforms.
-  
-- **Jasmine**: A behavior-driven development (BDD) framework used for writing unit and integration tests for the Angular application.
-
-- **Karma Chrome Launcher**: A plugin that runs tests in the Chrome browser, facilitating a real-world testing environment.
-
-- **Karma Coverage**: Generates code coverage reports to help identify untested parts of the codebase.
-
-### Build Tools
-
-- **Angular CLI**: A powerful command-line interface tool that simplifies the creation, management, and testing of Angular applications.
-
-- **Webpack**: A module bundler used by Angular CLI to efficiently bundle JavaScript, CSS, and other assets for production.
-
-### Miscellaneous
-
-- **Tslib**: A runtime library for TypeScript, providing essential helper functions to support TypeScript features.
-
-- **Node.js**: The runtime environment used to execute server-side JavaScript, particularly for the SSR with Express.
-
-## Project Structure
-
-### Backend Project Structure
+### **Backend Project Structure**
 
 ```plaintext
 Backend/
@@ -75,6 +40,9 @@ Backend/
 │   ├── Dtos/
 │   │   ├── CustomerDto.cs
 │   │   └── LoanApplicationDto.cs
+│   ├── Interfaces/
+│   │   ├── ILoanApplicationManager.cs
+│   │   └── ICustomerManager.cs
 │   ├── Services/
 │       └── LoanApplicationManager.cs
 │
@@ -108,8 +76,10 @@ Backend/
 │       └── SftpClientServices.cs
 │
 ├── LoanApp.Tests/
-│   ├── LoanApplicationServiceTests.cs
+│   ├── Services/
+│   │   └── LoanApplicationManagerTests.cs
 │   └── other test files...
+
 ````
 
 ### Frontend Project Structure

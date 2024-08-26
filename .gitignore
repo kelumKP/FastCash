@@ -1,77 +1,136 @@
-Frontend/loanApp-client/.angular/cache/
-Frontend/loanApp-client/.angular/cache/
-Frontend/loanApp-client-backup/.angular/cache
-Frontend/loanApp-client-backup/.angular/cache
-Frontend/loanApp-client-backup/.angular/cache
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.API.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.API.pdb
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Application.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Application.pdb
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Core.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Core.pdb
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Infrastructure.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Infrastructure.pdb
-Backend/LoanApp.API/.vs/LoanApp.API/xs/UserPrefs.xml
-Backend/LoanApp.Application/.vs/LoanApp.Application/xs/UserPrefs.xml
-Backend/LoanApp.Application/.vs/LoanApp.Application/xs/project-cache/LoanApp.Application-Debug.json
-Backend/LoanApp.Application/bin/Debug/net7.0/LoanApp.Application.deps.json
-Backend/LoanApp.Application/bin/Debug/net7.0/LoanApp.Application.dll
-Backend/LoanApp.Application/bin/Debug/net7.0/LoanApp.Application.pdb
-Backend/LoanApp.Application/bin/Debug/net7.0/LoanApp.Core.dll
-Backend/LoanApp.Application/bin/Debug/net7.0/LoanApp.Core.pdb
-Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Core.dll
-Backend/LoanApp.Core/bin/Debug/net7.0/LoanApp.Core.pdb
-Backend/LoanApp.Core/.vs/LoanApp.Core/xs/UserPrefs.xml
-Backend/LoanApp.Core/.vs/LoanApp.Core/xs/project-cache/LoanApp.Core-Debug.json
-Backend/LoanApp.Infrastructure/.vs/LoanApp.Infrastructure/xs/UserPrefs.xml
-Backend/LoanApp.Infrastructure/.vs/LoanApp.Infrastructure/xs/project-cache/LoanApp.Infrastructure-Debug.json
-Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Core.dll
-Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Core.pdb
-Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Infrastructure.dll
-Backend/LoanApp.Infrastructure/bin/Debug/net7.0/LoanApp.Infrastructure.pdb
-Backend/LoanApp.Tests/.vs/LoanApp.Tests/xs/UserPrefs.xml
-Backend/LoanApp.Tests/.vs/LoanApp.Tests/xs/project-cache/LoanApp.Tests-Debug.json
-Backend/LoanApp.Tests/obj/LoanApp.Tests.csproj.nuget.dgspec.json
-Backend/LoanApp.Tests/obj/LoanApp.Tests.csproj.nuget.g.props
-Backend/LoanApp.Tests/obj/project.assets.json
-Backend/LoanApp.Tests/obj/project.nuget.cache
-Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.assets.cache
-Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.csproj.AssemblyReference.cache
-Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.csproj.CoreCompileInputs.cache
-Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.csproj.FileListAbsolute.txt
-Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.dll
-Backend/LoanApp.Tests/obj/Debug/net7.0/LoanApp.Tests.pdb
-Backend/LoanApp.Tests/obj/Debug/net7.0/ref/LoanApp.Tests.dll
-Backend/LoanApp.Tests/obj/Debug/net7.0/refint/LoanApp.Tests.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/Castle.Core.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Application.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Application.pdb
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Core.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Core.pdb
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Infrastructure.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Infrastructure.pdb
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Tests.deps.json
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Tests.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/LoanApp.Tests.pdb
-Backend/LoanApp.Tests/bin/Debug/net7.0/Moq.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
-Backend/LoanApp.Tests/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
-Frontend/loanApp-client/dist/loan-app-client/browser/index.html
-Frontend/loanApp-client/dist/loan-app-client/browser/main-JOOPN6LN.js
-Frontend/loanApp-client/dist/loan-app-client/browser/main-QSO3575S.js
-Frontend/loanApp-client/dist/loan-app-client/browser/customer/loan-application/index.html
-Frontend/loanApp-client/dist/loan-app-client/server/chunk-ETQR2TWB.mjs
-Frontend/loanApp-client/dist/loan-app-client/server/chunk-YXAH4JDG.mjs
-Frontend/loanApp-client/dist/loan-app-client/server/index.server.html
-Frontend/loanApp-client/dist/loan-app-client/server/main.server.mjs
-Frontend/loanApp-client/dist/loan-app-client/server/server.mjs
-Backend/LoanApp.API/.vs/LoanApp.API/xs/UserPrefs.xml
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.API.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.API.pdb
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Application.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Application.pdb
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Core.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Core.pdb
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Infrastructure.dll
-Backend/LoanApp.API/bin/Debug/net7.0/LoanApp.Infrastructure.pdb
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Angular
+.angular/cache/
+.angular/ls/
+dist/
+!src/assets/
+/src/assets/*
+!src/assets/.gitkeep
+
+# Logs
+logs
+*.log
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Compiled output
+dist/
+build/
+out-tsc/
+
+# Compiled Java classes
+*.class
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt/
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# IDE or Editor directories
+.idea/
+.vscode/
+.vscode/*
+.history/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.userosscache
+*.sln.docstates
+
+# Typescript compiled files
+*.tsbuildinfo
+*.tscache
+
+# Sass/SCSS cache
+.sass-cache/
+
+# Optional cache directory for jest
+.jest/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Mac-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio Code specific files
+.vscode/
+
+# Visual Studio files
+.vs/
+
+# .NET directories
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.nuget.dgspec.json
+*.nuget.cache
+.vscode/
+.vscode/*
+
+# Packages
+*.nupkg
+*.snupkg
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*_Migration.cs

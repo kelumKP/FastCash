@@ -2000,25 +2000,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/kelumrubasin/.nuget/packages/": {}
+    "C:\\Users\\kelum\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.API/LoanApp.API.csproj",
+      "projectUniqueName": "E:\\Projects\\Projects_2017\\Projects\\Flo2Cash_EDA\\Flo2Cash\\Backend\\LoanApp.API\\LoanApp.API.csproj",
       "projectName": "LoanApp.API",
-      "projectPath": "/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.API/LoanApp.API.csproj",
-      "packagesPath": "/Users/kelumrubasin/.nuget/packages/",
-      "outputPath": "/Users/kelumrubasin/Desktop/Flo2Cash/Backend/LoanApp.API/obj/",
+      "projectPath": "E:\\Projects\\Projects_2017\\Projects\\Flo2Cash_EDA\\Flo2Cash\\Backend\\LoanApp.API\\LoanApp.API.csproj",
+      "packagesPath": "C:\\Users\\kelum\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\Projects_2017\\Projects\\Flo2Cash_EDA\\Flo2Cash\\Backend\\LoanApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kelumrubasin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kelum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2031,6 +2032,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2083,7 +2089,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   },

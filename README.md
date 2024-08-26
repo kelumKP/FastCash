@@ -23,6 +23,44 @@ This project is a full-stack loan application system built using modern technolo
 - **CORS (Cross-Origin Resource Sharing):** Configured to allow secure and specific communication between the frontend and backend, supporting various request origins.
 - **Swagger:** Integrated for easy API documentation and interactive testing, enhancing the development and collaboration process.
 
+# Frontend
+
+- **Angular**:
+  - **Angular Core**: Provides the foundation for building a responsive and dynamic single-page application (SPA).
+  - **Angular Forms**: Facilitates form validation and management of user input.
+  - **Angular Router**: Manages routing and navigation within the application.
+  - **Angular SSR (Server-Side Rendering)**: Configured with Angular Universal to improve performance and SEO by pre-rendering pages on the server.
+
+- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and developer productivity.
+
+- **RxJS**: Employed for managing asynchronous data streams and events, crucial for handling user interactions and real-time updates.
+
+- **Express.js**: Used in conjunction with Angular Universal to handle server-side rendering (SSR) and serve the Angular application.
+
+- **Zone.js**: Manages asynchronous operations in Angular, ensuring that the application’s change detection works seamlessly.
+
+### Testing
+
+- **Karma**: A test runner that allows you to run tests in a browser environment, ensuring that the application works correctly across different platforms.
+  
+- **Jasmine**: A behavior-driven development (BDD) framework used for writing unit and integration tests for the Angular application.
+
+- **Karma Chrome Launcher**: A plugin that runs tests in the Chrome browser, facilitating a real-world testing environment.
+
+- **Karma Coverage**: Generates code coverage reports to help identify untested parts of the codebase.
+
+### Build Tools
+
+- **Angular CLI**: A powerful command-line interface tool that simplifies the creation, management, and testing of Angular applications.
+
+- **Webpack**: A module bundler used by Angular CLI to efficiently bundle JavaScript, CSS, and other assets for production.
+
+### Miscellaneous
+
+- **Tslib**: A runtime library for TypeScript, providing essential helper functions to support TypeScript features.
+
+- **Node.js**: The runtime environment used to execute server-side JavaScript, particularly for the SSR with Express.
+
 # Project Structure
 
 ### **Backend Project Structure**
@@ -82,7 +120,7 @@ Backend/
 
 ````
 
-### Frontend Project Structure
+### **Frontend Project Structure**
 
 ```plaintext
 Frontend/

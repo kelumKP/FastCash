@@ -24,7 +24,7 @@ namespace LoanApp.Infrastructure.Services
         };
        
         _context.LoanApplications.Add(loanApplication);
-        _context.SaveChanges(); // This will fail if Status is not set
+        _context.SaveChanges();
     }
 }
 }
